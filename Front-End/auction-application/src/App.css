@@ -36,3 +36,181 @@
     transform: rotate(360deg);
   }
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+nav {
+  background: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffcc00; /* Highlight color on hover */
+}
+
+.search-bar {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Carousel */
+.carousel {
+  position: relative;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Carousel controls */
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+
+/* Auction Categories */
+.categories, .highlighted-auctions {
+  padding: 20px;
+  background: white;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+/* Category Grid */
+.category-grid, .auction-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Cards */
+.category-card, .auction-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  flex: 1 1 calc(33% - 20px); /* 3 items per row */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.category-card:hover, .auction-card:hover {
+  transform: scale(1.05);
+}
+
+.auction-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.auction-card h3 {
+  margin: 10px 0;
+}
+
+.auction-card p {
+  margin: 5px 0;
+}
+
+/* Button */
+button {
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ffcc00; /* Highlight color on hover */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
