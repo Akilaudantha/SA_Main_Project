@@ -4,9 +4,9 @@ import'./LogingSignup.css'
 const Signup = () => {
   return (
     <div>
-      <div classname='all'>
+      <div className='all'>
         <form action='' method='POST' name='f1'>
-            <h1>LogIn</h1>
+            <h1>Sign Up</h1>
         <table>
             <tr>
                 <td>
@@ -15,16 +15,21 @@ const Signup = () => {
             </tr>
             <tr>
                 <td>
-                    <input type='text' name='pws' placeholder='Password'/>
+                    <input type='password' name='pws' placeholder='Password'/>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button type='submit'>LogIn</button>
+                    <input type='password' name='rpws' placeholder='Re Enter Password'/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type='submit'>SignUp</button>
                 </td>
             </tr>
         </table>
-        <p>Yo dont have account? <a href='Signup.jsx'>Click Here!</a></p>
+       
         </form>
        </div>
     </div>

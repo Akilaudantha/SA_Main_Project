@@ -4,7 +4,7 @@ import background from '../Assets/Logback.png'
 const LoginSignup = () => {
   return (
     <div>
-       <div classname='all'>
+       <div className='all'>
         <form action='' method='POST' name='f1'>
             <h1>LogIn</h1>
         <table>
@@ -15,7 +15,7 @@ const LoginSignup = () => {
             </tr>
             <tr>
                 <td>
-                    <input type='text' name='pws' placeholder='Password'/>
+                    <input type='password' name='pws' placeholder='Password'/>
                 </td>
             </tr>
             <tr>
@@ -24,7 +24,7 @@ const LoginSignup = () => {
                 </td>
             </tr>
         </table>
-        <p>Yo dont have account? <a href='Signup.jsx'>Click Here!</a></p>
+        <p>You dont have account? <a href='/sign'>Click Here!</a></p>
         </form>
        </div>
     </div>
