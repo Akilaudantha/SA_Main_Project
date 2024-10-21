@@ -1,3 +1,6 @@
+body {
+    background-image: url('/src/Components/Assets/Logback.png');
+}
 form {
     background-color: #0066ff;
     padding: 25px;

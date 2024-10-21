@@ -9,17 +9,117 @@ body {
   
   font-family: Arial, sans-serif;
     
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('Logback.png');
+    background-color: white;
+    
     
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0044cc;
+  color: white;
+}
+
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Auction Area */
+main {
+  padding: 20px;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.auction-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.auction-item {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auction-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.auction-item h2 {
+  margin-top: 15px;
+  font-size: 1.2em;
+}
+
+.auction-item input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.auction-item button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auction-item button:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+footer {
+  background-color: #0044cc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }

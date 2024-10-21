@@ -1,5 +1,6 @@
 import React from 'react'
 import'./LogingSignup.css'
+import background from '../Assets/Logback.png'
 
 const Signup = () => {
   return (
