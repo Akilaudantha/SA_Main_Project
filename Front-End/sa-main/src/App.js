@@ -11,11 +11,17 @@ function App() {
   return (
     <BrowserRouter>
     <div>
+
       <Routes>
         <Route path="/" element={<Home />}/>
+
         <Route path="/login" element={<LoginSignup />} />
+
         <Route path="/sign" element={<Signup />}/>
+
+        
       </Routes>
+
     </div>
   </BrowserRouter>
       
