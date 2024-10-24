@@ -13,11 +13,11 @@ function App() {
     <div>
 
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route path="/jj" element={<Home />}/>
 
         <Route path="/login" element={<LoginSignup />} />
 
-        <Route path="/sign" element={<Signup />}/>
+        <Route path="/" element={<Signup />}/>
 
         
       </Routes>
