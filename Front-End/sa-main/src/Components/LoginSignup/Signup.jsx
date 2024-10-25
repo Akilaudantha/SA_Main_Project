@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './LogingSignup.css';
 
 const Signup = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [rePassword, setRePassword] = useState('');
-
+  const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -25,6 +26,7 @@ const Signup = () => {
 
     if (response.ok) {
       alert("User registered successfully!");
+      navigate('/');
     } else {
       const error = await response.json();
       alert(`Error: ${error.title}`);
