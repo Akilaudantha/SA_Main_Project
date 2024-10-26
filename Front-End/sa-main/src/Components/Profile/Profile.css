@@ -23,14 +23,21 @@
     color: white;
   }
   
+<<<<<<< Updated upstream
  
+=======
+>>>>>>> Stashed changes
   .logo {
     font-size: 24px;
     font-weight: bold;
   }
   
   .logo span {
+<<<<<<< Updated upstream
     color: #ffcc00; 
+=======
+    color: #ffcc00; /* Gold color for emphasis */
+>>>>>>> Stashed changes
   }
   
   nav {
@@ -45,7 +52,11 @@
   }
   
   nav a:hover {
+<<<<<<< Updated upstream
     color: #ffcc00; 
+=======
+    color: #ffcc00; /* Gold color on hover */
+>>>>>>> Stashed changes
   }
   
   main {
@@ -64,7 +75,23 @@
     max-width: 400px;
     width: 100%;
   }
+<<<<<<< Updated upstream
 
+=======
+  
+  .profile-avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #007bff; /* Add border around avatar */
+  }
+  
+  .profile-card h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+>>>>>>> Stashed changes
   
   .profile-table {
     width: 100%;
@@ -74,6 +101,7 @@
   
   .profile-table td {
     padding: 10px;
+<<<<<<< Updated upstream
     border-bottom: 1px solid #ddd; 
     text-align: left; 
   }
@@ -89,35 +117,76 @@
   .profile-actions {
     display: flex; 
     justify-content: center; 
+=======
+    border-bottom: 1px solid #ddd; /* Add a bottom border for each row */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .profile-table tr:hover {
+    background-color: #f9f9f9; /* Highlight row on hover */
+  }
+  
+  .profile-table strong {
+    color: #333; /* Dark color for strong elements */
+  }
+  
+  .profile-actions {
+    display: flex; /* Use flexbox to align buttons in a row */
+    justify-content: center; /* Center the buttons */
+>>>>>>> Stashed changes
     margin-top: 20px;
   }
   
   .edit-btn, .logout-btn {
+<<<<<<< Updated upstream
     padding: 8px 15px; 
     font-size: 14px; 
     margin: 0 5px; 
     border-radius: 5px;
     border: none; 
+=======
+    padding: 8px 15px; /* Adjust padding for smaller buttons */
+    font-size: 14px; /* Smaller font size */
+    margin: 0 5px; /* Add some space between the buttons */
+    border-radius: 5px;
+    border: none; /* Remove border */
+>>>>>>> Stashed changes
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
   }
   
   .edit-btn {
+<<<<<<< Updated upstream
     background-color: #28a745; 
+=======
+    background-color: #28a745; /* Green */
+>>>>>>> Stashed changes
     color: white;
   }
   
   .edit-btn:hover {
+<<<<<<< Updated upstream
     background-color: #218838;
   }
   
   .logout-btn {
     background-color: #dc3545;
+=======
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .logout-btn {
+    background-color: #dc3545; /* Red */
+>>>>>>> Stashed changes
     color: white;
   }
   
   .logout-btn:hover {
+<<<<<<< Updated upstream
     background-color: #c82333; 
+=======
+    background-color: #c82333; /* Darker red on hover */
+>>>>>>> Stashed changes
   }
   
   footer {
@@ -129,3 +198,7 @@
     bottom: 0;
     width: 100%;
   }
+<<<<<<< Updated upstream
+=======
+  
+>>>>>>> Stashed changes

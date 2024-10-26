@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
+<<<<<<< Updated upstream
 import { Link } from 'react-router-dom';
+=======
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+>>>>>>> Stashed changes
 import './Home.css';
 
 const Home = () => {
@@ -25,10 +29,17 @@ const Home = () => {
       <header>
         <div className="logo">AuctionHouse</div>
         <nav>
+<<<<<<< Updated upstream
         <Link to="/">Home</Link>
           <Link to="/auctions">Auctions</Link>
           <Link to="/my-bids">My Bids</Link>
           <Link to="/profile">Profile</Link>
+=======
+          <Link to="/">Home</Link> {/* Replace a with Link for Home */}
+          <Link to="/auctions">Auctions</Link> {/* Replace a with Link for Auctions */}
+          <Link to="/my-bids">My Bids</Link> {/* Replace a with Link for My Bids */}
+          <Link to="/profile">Profile</Link> {/* Replace a with Link for Profile */}
+>>>>>>> Stashed changes
         </nav>
       </header>
 
