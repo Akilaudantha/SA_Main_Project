@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
   const [bids, setBids] = useState({
-    1: 50, // Initial bid for item 1
-    2: 5000 // Initial bid for item 2
+    1: 50, 
+    2: 5000 
   });
 
   const placeBid = (itemId) => {
@@ -24,10 +25,10 @@ const Home = () => {
       <header>
         <div className="logo">AuctionHouse</div>
         <nav>
-          <a href="#">Home</a>
-          <a href="#">Auctions</a>
-          <a href="#">My Bids</a>
-          <a href="#">Profile</a>
+        <Link to="/">Home</Link>
+          <Link to="/auctions">Auctions</Link>
+          <Link to="/my-bids">My Bids</Link>
+          <Link to="/profile">Profile</Link>
         </nav>
       </header>
 
